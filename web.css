@@ -10,7 +10,7 @@
   height: 30px;
 }
 
-body {
+.w {
   background-image: url(image/pc2.png);
   background-size: cover;
 }
@@ -29,6 +29,7 @@ body {
   line-height: 24px;
   text-align: left;
   margin-left: 25%;
+
 }
 
 .menu_items {
@@ -54,19 +55,265 @@ body {
   margin-left: 25%;
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width:668px) {
+
   .menu_items {
     display: none;
   }
 
-  body {
-    background-image: url(image/mobi2.png);
+  .w {
+    background-image: url(image/pc2.png);
     background-size: cover;
   }
+
+
+
 }
 
-@media (min-width: 768px) {
-  .three {
-    display: none;
+@media only screen and (min-width:700px) {
+  .Large_container {
+    background-color: white;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0%;
+    padding: 0%;
+    gap: 2px;
   }
+
+  .contact {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .image_other_content {
+    margin: 0%;
+    padding: 0%;
+  }
+
+}
+
+
+.Large_container {
+
+  display: grid;
+
+  background-color: whitesmoke;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+
+}
+
+.image_other_content {
+  justify-content: center;
+
+
+  background-color: white;
+
+  margin-bottom: 90px;
+  border: 0px solid #6070ff;
+  border-radius: 9px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.image_portfolio {
+  justify-content: center;
+}
+
+
+
+.para6 {
+  font-size: 30px;
+  background-color: white
+}
+
+.HCJ ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+
+
+
+
+}
+
+.HTML {
+  background-color: #bdc1e3;
+  border: 1px solid #6070ff;
+  border-radius: 9px;
+  padding: 10px;
+
+
+}
+
+.CSS {
+  background-color: #bdc1e3;
+  border: 1px solid #6070ff;
+  border-radius: 9px;
+  padding: 10px;
+
+}
+
+.JAVA-SCRIP {
+  background-color: #bdc1e3;
+  border: 1px solid #6070ff;
+  border-radius: 9px;
+  padding: 10px;
+}
+
+.see_project {
+
+  background-color: rgb(244, 239, 239);
+
+  border: 1px solid #c6cbf4;
+  border-radius: 8px;
+  margin-right: 50%;
+
+
+}
+
+.image_other_content2 {
+  background-color: white;
+  margin-bottom: 90px;
+  border: 0px solid whitesmoke;
+  border-radius: 9px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
+.image_portfolio2 {}
+
+.para7 ul {
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: circle;
+
+}
+
+.Long {
+  border: 0.px solid #4d4e55;
+  border-radius: 9px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+
+}
+
+.About_myself {}
+
+.ht_cs_js {}
+
+.lets_content {}
+
+.language {
+  display: flex;
+  justify-content: space-between;
+}
+
+.J_H_C {
+  padding-left: 2%;
+
+}
+
+.JS {
+  display: flex;
+  background-color: gainsboro;
+  margin-bottom: 2%;
+
+}
+
+.TXT {
+  margin-left: 8%;
+}
+
+.text {
+  background-color: aliceblue;
+}
+
+.fram {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  background-color: #6070ff;
+
+  border-top-left-radius: 80px;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.head {
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 25%;
+  padding-top: 20px;
+  color: white;
+}
+
+.paragraph {
+  justify-content: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-size: 30px;
+}
+
+.area {
+  padding-bottom: 20%;
+  border: px solid #c6cbf4;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+.nea {
+  display: grid;
+  margin-top: 5%;
+
+  align-items: center;
+  text-align: center;
+
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.nme {
+  padding-bottom: 7%;
+  border: 1px solid #c6cbf4;
+  border-radius: 10px;
+
+  margin-bottom: 2%;
+}
+
+.ema {
+  padding-bottom: 7%;
+  margin-bottom: 2%;
+  border: 1px solid #c6cbf4;
+  border-radius: 10px;
+}
+
+.btn {
+  padding-bottom: 7%;
+  margin-bottom: 5%;
+  border: 1px solid #c6cbf4;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 40%;
+}
+
+.btn--primary:hover {
+  background: #6070ff;
 }
