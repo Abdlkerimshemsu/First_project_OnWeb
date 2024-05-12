@@ -29,7 +29,6 @@
   line-height: 24px;
   text-align: left;
   margin-left: 25%;
-
 }
 
 .menu_items {
@@ -55,8 +54,7 @@
   margin-left: 25%;
 }
 
-@media only screen and (max-width:668px) {
-
+@media only screen and (max-width: 668px) {
   .menu_items {
     display: none;
   }
@@ -65,12 +63,9 @@
     background-image: url(image/pc2.png);
     background-size: cover;
   }
-
-
-
 }
 
-@media only screen and (min-width:700px) {
+@media only screen and (min-width: 700px) {
   .Large_container {
     background-color: white;
     display: flex;
@@ -89,30 +84,20 @@
     margin: 0%;
     padding: 0%;
   }
-
 }
 
-
 .Large_container {
-
   display: grid;
-
   background-color: whitesmoke;
   margin-top: 30px;
   margin-bottom: 30px;
-
-
-
 }
 
 .image_other_content {
   justify-content: center;
-
-
   background-color: white;
-
   margin-bottom: 90px;
-  border: 0px solid #6070ff;
+  border: 0 solid #6070ff;
   border-radius: 9px;
   margin-left: 10%;
   margin-right: 10%;
@@ -122,21 +107,15 @@
   justify-content: center;
 }
 
-
-
 .para6 {
   font-size: 30px;
-  background-color: white
+  background-color: white;
 }
 
 .HCJ ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-
-
-
-
 }
 
 .HTML {
@@ -144,8 +123,6 @@
   border: 1px solid #6070ff;
   border-radius: 9px;
   padding: 10px;
-
-
 }
 
 .CSS {
@@ -153,7 +130,6 @@
   border: 1px solid #6070ff;
   border-radius: 9px;
   padding: 10px;
-
 }
 
 .JAVA-SCRIP {
@@ -164,51 +140,35 @@
 }
 
 .see_project {
-
   background-color: rgb(244, 239, 239);
-
   border: 1px solid #c6cbf4;
   border-radius: 8px;
   margin-right: 50%;
-
-
 }
 
 .image_other_content2 {
   background-color: white;
   margin-bottom: 90px;
-  border: 0px solid whitesmoke;
+  border: 0 solid whitesmoke;
   border-radius: 9px;
   margin-left: 10%;
   margin-right: 10%;
 }
-
-
-
-.image_portfolio2 {}
 
 .para7 ul {
   background-color: azure;
   display: flex;
   justify-content: space-between;
   list-style-type: circle;
-
 }
 
 .Long {
-  border: 0.px solid #4d4e55;
+  border: 0.1px solid #4d4e55;
   border-radius: 9px;
   margin-left: 10%;
   margin-right: 10%;
   background-color: white;
-
 }
-
-.About_myself {}
-
-.ht_cs_js {}
-
-.lets_content {}
 
 .language {
   display: flex;
@@ -217,14 +177,12 @@
 
 .J_H_C {
   padding-left: 2%;
-
 }
 
 .JS {
   display: flex;
   background-color: gainsboro;
   margin-bottom: 2%;
-
 }
 
 .TXT {
@@ -247,16 +205,12 @@
 
 .contact {
   background-color: #6070ff;
-
   border-top-left-radius: 80px;
-
   justify-content: center;
   align-items: center;
-
 }
 
 .head {
-
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -282,10 +236,8 @@
 .nea {
   display: grid;
   margin-top: 5%;
-
   align-items: center;
   text-align: center;
-
   margin-right: 5%;
   margin-left: 5%;
 }
@@ -294,7 +246,6 @@
   padding-bottom: 7%;
   border: 1px solid #c6cbf4;
   border-radius: 10px;
-
   margin-bottom: 2%;
 }
 
