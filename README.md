@@ -2,93 +2,44 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+ 
 
 
-# 📖First Web Project <a name="about-project"></a>
+# 📖First Web Project and Task four <a name="about desktop size"></a>
 
 First Web Project  is a repository consisting of the following files:
-- HTML file (web.html)
+- HTML file (index.html)
 - CSS file (web.css)
-- package.jason
+- 
 
 
 The repository also contains files for setting up linters and validators.
 
 
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
+ 
   <summary>Client</summary>
   <ul>
-    <li><a href="https://github.com/Abdlkerimshemsu/First_project_OnWeb/blob/develop/web.html">HTML</a></li>
+    <li><a href="https://github.com/Abdlkerimshemsu/First_project_OnWeb/blob/develop/index.html">HTML</a></li>
     <li><a href="https://github.com/Abdlkerimshemsu/First_project_OnWeb/blob/develop/web.css">CSS</a></li>
   </ul>
 </details>
 
 
-### Key Features <a name="key-features"></a>
+ 
 
 - **no linter errors**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-- <a href="[#readme-top](https://benacode.github.io/Hello-world-Test/index.html)">web pro Live</a>
+ 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 💻 Getting Started <a name="getting-started"></a>
+ 
 
-To get a local copy up and running, follow these steps.
-
-### Setup
-
-Clone this repository to your desired folder:
-
-> cd my-folder
-> git clone git@github.com:myaccount/my-project.git
-
-### Prerequisites
-
-In order to run this project you need:
-
-- gitHub account;
-- git installed on your OS.
-
-### Install
-
-Installations required to run this project:
-
-- Webhint installation. Run the following command:
-> npm install --save-dev hint@7.x
-
-- Stylelint installation. Run the following command:
-> npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-
-### Usage
+ 
 
 You can use this project by cloning it to your folder and changing index.html and styles.css files.
 
@@ -105,10 +56,9 @@ You can deploy this project adding new lines of code to index.html and styles.cs
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
-
-👤 Habtamu Alemayehu
-- GitHub: [@bena] https://github.com/Benawi
+## 👥 Authors <a name="Abdlkerim"></a>
+Abdlkerim
+- GitHub: [] https://github.com/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -129,21 +79,8 @@ Contributions, issues, and feature requests are welcome!
 
 If you like this project just star it!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank World program for providing me wthis great chance
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./MIT.md) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 

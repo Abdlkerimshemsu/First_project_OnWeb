@@ -13,6 +13,7 @@
 .w {
   background-image: url(image/pc2.png);
   background-size: cover;
+  margin-right: 5%;
 }
 
 .both {
@@ -68,8 +69,8 @@
 @media only screen and (min-width: 700px) {
   .Large_container {
     background-color: white;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-columns: 1fr 1fr;
     margin: 0%;
     padding: 0%;
     gap: 2px;
@@ -85,6 +86,7 @@
     padding: 0%;
   }
 }
+
 
 .Large_container {
   display: grid;
@@ -263,6 +265,7 @@
   border-radius: 10px;
   margin-left: 5%;
   margin-right: 40%;
+
 }
 
 .btn--primary:hover {
