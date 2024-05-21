@@ -1,9 +1,7 @@
 .image_portfolio3:hover {
   transform: scale(1.2);
   transition-duration: 2.5s;
-
 }
-
 
 .Logo {
   color: blue;
@@ -30,7 +28,6 @@
   justify-content: space-between;
   height: 7vh;
   background-color: white;
-
 }
 
 .para {
@@ -65,10 +62,8 @@
 }
 
 @media only screen and (max-width: 668px) {
-
   .menus {
     display: none;
-
     flex-direction: column;
     width: 100%;
     position: absolute;
@@ -76,7 +71,6 @@
     left: 0;
     background-color: white;
     z-index: 1;
-
   }
 
   .menu_items {
@@ -96,18 +90,13 @@
     background-image: url(image/pc2.png);
     background-size: cover;
   }
-
-
 }
 
 @media only screen and (min-width: 700px) {
   .Large_container {
-
-
     display: grid;
     grid-template-columns: 1;
     margin: 5%;
-
 
     .contact {
       padding: 0%;
@@ -123,8 +112,6 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
     }
-
-
   }
 
   .Long {
@@ -132,8 +119,6 @@
     grid-template-columns: 1fr 1fr;
     margin: 5%;
   }
-
-
 }
 
 .image_portfolio3 img {
@@ -141,11 +126,10 @@
   height: 448px;
   top: 24px;
   left: 590px;
-  gap: 0px;
-  border-radius: 8px 0px 0px 0px;
-  opacity: 0px;
+  gap: 0;
+  border-radius: 8px 0 0 0;
+  opacity: 0;
 }
-
 
 .Large_container {
   display: grid;
@@ -155,15 +139,11 @@
 }
 
 .image_other_content {
-
   background-color: white;
   margin-bottom: 90px;
   border: 0 solid #6070ff;
   border-radius: 9px;
-
 }
-
-
 
 .para6 {
   font-size: 30px;
@@ -209,7 +189,6 @@
   margin-bottom: 90px;
   border: 0 solid whitesmoke;
   border-radius: 9px;
-
 }
 
 .para7 ul {
@@ -217,15 +196,11 @@
   display: flex;
   justify-content: space-between;
   list-style-type: circle;
-
 }
-
-
 
 .Long {
   border: 0.1px solid #4d4e55;
   border-radius: 9px;
-
   background-color: white;
 }
 
@@ -323,7 +298,6 @@
   border-radius: 10px;
   margin-left: 5%;
   margin-right: 40%;
-
 }
 
 .btn--primary:hover {
